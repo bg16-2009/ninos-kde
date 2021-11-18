@@ -1,6 +1,6 @@
 import os
 import sys
-from scrpits.kde import install_kde
+from scripts.kde import install_kde
 
 check= input("Have you read the README file? [y/n]")
 if(check.lower()=="n"):
